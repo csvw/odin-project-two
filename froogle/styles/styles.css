@@ -9,6 +9,10 @@ input {
     margin: 10px;
 }
 
+input[type=search] {
+    width: 500px;
+}
+
 .options {
     margin: 0;
     padding: 0;
