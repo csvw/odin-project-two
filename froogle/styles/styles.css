@@ -1,0 +1,83 @@
+@import url("reset.css");
+
+h1 {
+    font-size: 7.5em;
+    padding: 30px;
+}
+
+input {
+    margin: 10px;
+}
+
+.options {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-row {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-column-left {
+    justify-content: flex-start;
+}
+
+.flex-column-right {
+    justify-content: flex-end;
+}
+
+li {
+    padding: 15px;
+    margin: 5px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-half {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bottom-half {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+html {
+    height: 100%;
+}
+
+footer {
+    background: #DEDEDE;
+}
+
+.so-cheap {
+    padding: 10px;
+}

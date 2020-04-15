@@ -1,2 +1,4 @@
 # odin-project-two
-This project consists of two parts: recreating the Google homepage, and recreating the Google search results page. These are not fully functional web pages--this project is to help familiarize the learner with the essentials of HTML and CSS.
+This project is designed to help the learner become familiar with HTML5 and CSS3.
+
+I have recreated the homepages for Tumblr and Google. These are not fully functional websites. To learn more about the project description, you can follow this link from The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css).

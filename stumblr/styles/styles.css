@@ -1,0 +1,201 @@
+@import url("reset.css");
+
+html {
+    height: 100%;
+    background: #222;
+}
+
+body {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: linear-gradient( 90deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0) ), url('../images/dice2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+h1 {
+    font-size: 3.5em;
+    padding-top: 25px;
+    color: white;
+}
+
+input[type=search] {
+    border: none;
+    background-color: #333;
+    color: white;
+    height: 35px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+footer {
+    background: green;
+    color: white;
+}
+
+.empty {
+    height: 200px;
+}
+
+.random-walk {
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.05em;
+    line-height: 1.5em;
+}
+
+.btns {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    max-height: 70px;
+    height: 70px;
+    max-width: 350px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 2em;
+    border: none;
+}
+
+.btn:hover {
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.icon {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-search {
+    color: white;
+}
+
+.sign-up {
+    background: rgb(25, 180, 231);
+    color: white;
+}
+
+.log-in {
+    background: #FFFFFFFF;
+    color: black;
+}
+
+.what-is {
+    font-size: 1.5em;
+    padding: 10px;
+    color: white;
+}
+
+.what-is:hover {
+    font-weight: bold;
+}
+
+.options {
+    margin: 0;
+    padding: 0;
+}
+
+.stumbl {
+    color: white;
+    font-size: 1.4em;
+    margin: 15px;
+}
+
+@keyframes rainbow {
+    0% {
+        color: blue;
+    }
+    25% {
+        color: red;
+    }
+
+    50% {
+        color: yellow;
+    }
+
+    75% {
+        color: green;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+.stumbl:hover {
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.flex-row {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-margin {
+    margin: 5px;
+    margin-left: 150px;
+}
+
+.flex-column {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-column-left {
+    justify-content: flex-start;
+}
+
+.flex-column-right {
+    justify-content: flex-end;
+}
+
+.box-form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
